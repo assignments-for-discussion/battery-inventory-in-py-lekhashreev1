@@ -1,6 +1,6 @@
 
 def count_batteries_by_usage(cycles):
-     d={"lowcount"=0,"highcount"=0,"mediumcount"=0}
+     d={"lowcount":0,"highcount":0,"mediumcount":0}
      l=0
      h=0
      m=0
