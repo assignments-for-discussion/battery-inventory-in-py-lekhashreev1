@@ -6,7 +6,7 @@ def count_batteries_by_usage(cycles):
      for i in range(len(cycles)):
           if cycles[i]<400:
                l+=1
-          elif cycles[i]>=400 and cycles[i]<919:
+          elif cycles[i]>=400 and cycles[i]<=919:
                m+=1
           else:
                h+=1
